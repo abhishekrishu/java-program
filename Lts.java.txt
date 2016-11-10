@@ -4,15 +4,18 @@ class Student8{
    static String college ="LTS";
 static String city=" NOIDA Sector 4";
 static String state=" Uttar Pradesh";
+      
    
-   Student8(int r,String n){
+
+    Student8(int r,String n){
    rollno = r;
    name = n;
    }
  void display (){System.out.println(rollno+"    "+name+"   "+college+"   "
 +city+"     "+state);}
 
- public static void main(String args[]){
+ public static void main(String args[]){ 
+
  Student8 s1 = new Student8(10010,"Kapil");
  Student8 s2 = new Student8(20010,"Abhishek");
 Student8 s3 = new Student8(30010,"Mohit");
